@@ -1,8 +1,7 @@
-# llm.py
 import torch
 from transformers import LlamaTokenizer, LlamaForCausalLM, pipeline
 
-from retriever import retrieve_top_k_sentences, format_context_for_llm
+from .retriever import retrieve_top_k_sentences, format_context_for_llm
 
 BIOMISTRAL_MODEL_ID = "medalpaca/medalpaca-7b"
 
@@ -29,10 +28,6 @@ def load_llm():
     )
     return gen_pipe
 
-
-llm_pipe = load_llm()
-
-
 def build_llm_prompt(user_question: str, context: str) -> str:
     return (
         "You are a biomedical expert.\n"
@@ -57,6 +52,7 @@ def answer_with_rag_llm(user_question: str, retmax=50, k=10, max_new_tokens=64):
     context = format_context_for_llm(rag_results, max_sentences=k)
     prompt = build_llm_prompt(user_question, context)
 
+    llm_pipe = load_llm()
     outputs = llm_pipe(
         prompt,
         max_new_tokens=max_new_tokens,

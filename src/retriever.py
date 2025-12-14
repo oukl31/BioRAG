@@ -1,10 +1,9 @@
-# retriever.py
 from sentence_transformers import SentenceTransformer
 import faiss
 import numpy as np
 
-from search_pubmed import search_pubmed, fetch_pubmed_details
-from preprocessing import nlp_ner, find_gene_mentions_with_dict, process_article
+from .search_pubmed import search_pubmed, fetch_pubmed_details
+from .preprocessing import nlp_ner, find_gene_mentions_with_dict, process_article
 
 embed_model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
 

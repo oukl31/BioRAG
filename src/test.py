@@ -1,4 +1,4 @@
-from llm import answer_with_rag_llm
+from .llm import answer_with_rag_llm
 
 
 if __name__ == "__main__":

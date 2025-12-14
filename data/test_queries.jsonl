@@ -1,0 +1,109 @@
+{"id": 1, "question": "What diseases are associated with BRCA1?", "expect_in_query": ["BRCA1"], "expect_in_results_any": ["breast", "ovarian", "cancer"]}
+{"id": 2, "question": "Is BRCA1 related to hereditary breast cancer?", "expect_in_query": ["BRCA1", "breast"], "expect_in_results_any": ["hereditary", "familial", "breast"]}
+{"id": 3, "question": "Does BRCA1 increase the risk of ovarian cancer?", "expect_in_query": ["BRCA1", "ovarian"], "expect_in_results_any": ["ovarian", "cancer"]}
+{"id": 4, "question": "Which cancers are linked to BRCA1 mutations?", "expect_in_query": ["BRCA1"], "expect_in_results_any": ["breast", "ovarian", "pancreatic", "prostate"]}
+{"id": 5, "question": "Is BRCA1 associated with prostate cancer?", "expect_in_query": ["BRCA1", "prostate"], "expect_in_results_any": ["prostate", "cancer"]}
+{"id": 6, "question": "Is BRCA1 involved in pancreatic cancer?", "expect_in_query": ["BRCA1", "pancreatic"], "expect_in_results_any": ["pancreatic", "adenocarcinoma"]}
+{"id": 7, "question": "Are BRCA1 mutations linked to fallopian tube cancer?", "expect_in_query": ["BRCA1", "fallopian"], "expect_in_results_any": ["fallopian", "tubal", "cancer"]}
+{"id": 8, "question": "Are BRCA1 mutations associated with peritoneal cancer?", "expect_in_query": ["BRCA1", "peritoneal"], "expect_in_results_any": ["peritoneal", "cancer"]}
+{"id": 9, "question": "Do BRCA1 mutations contribute to male breast cancer?", "expect_in_query": ["BRCA1", "male"], "expect_in_results_any": ["male", "breast", "cancer"]}
+{"id": 10, "question": "What non-breast cancers are associated with BRCA1?", "expect_in_query": ["BRCA1"], "expect_in_results_any": ["ovarian", "pancreatic", "prostate"]}
+
+{"id": 11, "question": "What diseases are associated with BRCA2?", "expect_in_query": ["BRCA2"], "expect_in_results_any": ["breast", "ovarian", "cancer"]}
+{"id": 12, "question": "Is BRCA2 related to hereditary breast and ovarian cancer?", "expect_in_query": ["BRCA2", "breast", "ovarian"], "expect_in_results_any": ["hereditary", "breast", "ovarian"]}
+{"id": 13, "question": "Does BRCA2 increase the risk of pancreatic cancer?", "expect_in_query": ["BRCA2", "pancreatic"], "expect_in_results_any": ["pancreatic", "adenocarcinoma"]}
+{"id": 14, "question": "Is BRCA2 associated with prostate cancer?", "expect_in_query": ["BRCA2", "prostate"], "expect_in_results_any": ["prostate", "cancer"]}
+{"id": 15, "question": "Are BRCA2 mutations linked to male breast cancer?", "expect_in_query": ["BRCA2", "male"], "expect_in_results_any": ["male", "breast", "cancer"]}
+{"id": 16, "question": "Which cancers are linked to BRCA2 mutations?", "expect_in_query": ["BRCA2"], "expect_in_results_any": ["breast", "ovarian", "pancreatic", "prostate"]}
+{"id": 17, "question": "Are BRCA2 mutations related to melanoma?", "expect_in_query": ["BRCA2", "melanoma"], "expect_in_results_any": ["melanoma", "skin"]}
+{"id": 18, "question": "Do BRCA2 mutations predispose to gastric cancer?", "expect_in_query": ["BRCA2", "gastric"], "expect_in_results_any": ["gastric", "stomach"]}
+{"id": 19, "question": "Is BRCA2 involved in colorectal cancer risk?", "expect_in_query": ["BRCA2", "colorectal"], "expect_in_results_any": ["colorectal", "colon", "rectal"]}
+{"id": 20, "question": "Are BRCA2 mutations associated with ovarian carcinoma?", "expect_in_query": ["BRCA2", "ovarian"], "expect_in_results_any": ["ovarian", "carcinoma"]}
+
+{"id": 21, "question": "What diseases are associated with TP53?", "expect_in_query": ["TP53"], "expect_in_results_any": ["cancer", "tumor", "Li-Fraumeni"]}
+{"id": 22, "question": "Is TP53 related to Li-Fraumeni syndrome?", "expect_in_query": ["TP53", "Li-Fraumeni"], "expect_in_results_any": ["Li-Fraumeni", "syndrome"]}
+{"id": 23, "question": "Is TP53 involved in lung cancer?", "expect_in_query": ["TP53", "lung"], "expect_in_results_any": ["lung", "carcinoma", "NSCLC"]}
+{"id": 24, "question": "Are TP53 mutations associated with breast cancer?", "expect_in_query": ["TP53", "breast"], "expect_in_results_any": ["breast", "carcinoma"]}
+{"id": 25, "question": "Does TP53 play a role in colorectal cancer?", "expect_in_query": ["TP53", "colorectal"], "expect_in_results_any": ["colorectal", "colon", "adenocarcinoma"]}
+{"id": 26, "question": "Are TP53 mutations linked to ovarian cancer?", "expect_in_query": ["TP53", "ovarian"], "expect_in_results_any": ["ovarian", "cancer"]}
+{"id": 27, "question": "Is TP53 associated with gastric cancer?", "expect_in_query": ["TP53", "gastric"], "expect_in_results_any": ["gastric", "stomach"]}
+{"id": 28, "question": "Are TP53 mutations involved in hepatocellular carcinoma?", "expect_in_query": ["TP53", "hepatocellular"], "expect_in_results_any": ["hepatocellular", "liver"]}
+{"id": 29, "question": "Does TP53 contribute to glioblastoma development?", "expect_in_query": ["TP53", "glioblastoma"], "expect_in_results_any": ["glioblastoma", "brain", "glioma"]}
+{"id": 30, "question": "What cancers involve co-mutations in BRCA1 and TP53?", "expect_in_query": ["BRCA1", "TP53"], "expect_in_results_any": ["breast", "ovarian", "cancer"]}
+
+{"id": 31, "question": "How is EGFR related to lung cancer?", "expect_in_query": ["EGFR", "lung"], "expect_in_results_any": ["non-small cell", "NSCLC", "adenocarcinoma"]}
+{"id": 32, "question": "Is EGFR involved in non-small cell lung cancer?", "expect_in_query": ["EGFR", "non-small"], "expect_in_results_any": ["NSCLC", "adenocarcinoma", "lung"]}
+{"id": 33, "question": "Does EGFR play a role in colorectal cancer?", "expect_in_query": ["EGFR", "colorectal"], "expect_in_results_any": ["colorectal", "colon", "rectal"]}
+{"id": 34, "question": "Are EGFR mutations associated with glioblastoma?", "expect_in_query": ["EGFR", "glioblastoma"], "expect_in_results_any": ["glioblastoma", "brain"]}
+{"id": 35, "question": "Is EGFR overexpression linked to head and neck cancer?", "expect_in_query": ["EGFR", "head", "neck"], "expect_in_results_any": ["head", "neck", "squamous"]}
+{"id": 36, "question": "What cancers are associated with EGFR amplifications?", "expect_in_query": ["EGFR"], "expect_in_results_any": ["lung", "glioblastoma", "colorectal"]}
+{"id": 37, "question": "Are EGFR mutations related to pancreatic cancer?", "expect_in_query": ["EGFR", "pancreatic"], "expect_in_results_any": ["pancreatic", "adenocarcinoma"]}
+{"id": 38, "question": "Does EGFR contribute to esophageal cancer?", "expect_in_query": ["EGFR", "esophageal"], "expect_in_results_any": ["esophageal", "cancer"]}
+{"id": 39, "question": "What cancers involve EGFR and TP53 together?", "expect_in_query": ["EGFR", "TP53"], "expect_in_results_any": ["lung", "cancer", "tumor"]}
+{"id": 40, "question": "Is EGFR signaling implicated in melanoma?", "expect_in_query": ["EGFR", "melanoma"], "expect_in_results_any": ["melanoma", "skin"]}
+
+{"id": 41, "question": "Is KRAS related to pancreatic cancer?", "expect_in_query": ["KRAS", "pancreatic"], "expect_in_results_any": ["pancreatic", "adenocarcinoma"]}
+{"id": 42, "question": "Are KRAS mutations associated with colorectal cancer?", "expect_in_query": ["KRAS", "colorectal"], "expect_in_results_any": ["colorectal", "colon", "rectal"]}
+{"id": 43, "question": "Does KRAS play a role in lung adenocarcinoma?", "expect_in_query": ["KRAS", "lung"], "expect_in_results_any": ["lung", "adenocarcinoma"]}
+{"id": 44, "question": "Are KRAS mutations involved in cholangiocarcinoma?", "expect_in_query": ["KRAS", "cholangiocarcinoma"], "expect_in_results_any": ["cholangiocarcinoma", "bile", "duct"]}
+{"id": 45, "question": "Is KRAS associated with endometrial cancer?", "expect_in_query": ["KRAS", "endometrial"], "expect_in_results_any": ["endometrial", "uterine"]}
+{"id": 46, "question": "What cancers are frequently driven by KRAS mutations?", "expect_in_query": ["KRAS"], "expect_in_results_any": ["pancreatic", "colorectal", "lung"]}
+{"id": 47, "question": "Are KRAS mutations linked to gastric cancer?", "expect_in_query": ["KRAS", "gastric"], "expect_in_results_any": ["gastric", "stomach"]}
+{"id": 48, "question": "Is KRAS involved in ovarian cancer pathogenesis?", "expect_in_query": ["KRAS", "ovarian"], "expect_in_results_any": ["ovarian", "carcinoma"]}
+{"id": 49, "question": "Do KRAS and TP53 co-mutations occur in pancreatic cancer?", "expect_in_query": ["KRAS", "TP53", "pancreatic"], "expect_in_results_any": ["pancreatic", "adenocarcinoma", "co-mutation"]}
+{"id": 50, "question": "Are KRAS mutations associated with melanoma?", "expect_in_query": ["KRAS", "melanoma"], "expect_in_results_any": ["melanoma", "skin"]}
+
+{"id": 51, "question": "What diseases are associated with BRAF mutations?", "expect_in_query": ["BRAF"], "expect_in_results_any": ["melanoma", "thyroid", "colorectal"]}
+{"id": 52, "question": "Is BRAF V600E mutation linked to melanoma?", "expect_in_query": ["BRAF", "V600E", "melanoma"], "expect_in_results_any": ["melanoma", "V600E"]}
+{"id": 53, "question": "Are BRAF mutations associated with papillary thyroid carcinoma?", "expect_in_query": ["BRAF", "thyroid"], "expect_in_results_any": ["papillary", "thyroid"]}
+{"id": 54, "question": "Does BRAF play a role in colorectal cancer?", "expect_in_query": ["BRAF", "colorectal"], "expect_in_results_any": ["colorectal", "colon"]}
+{"id": 55, "question": "Is BRAF involved in hairy cell leukemia?", "expect_in_query": ["BRAF", "hairy"], "expect_in_results_any": ["hairy", "cell", "leukemia"]}
+{"id": 56, "question": "Are BRAF mutations related to lung cancer?", "expect_in_query": ["BRAF", "lung"], "expect_in_results_any": ["lung", "adenocarcinoma"]}
+{"id": 57, "question": "Is BRAF associated with Langerhans cell histiocytosis?", "expect_in_query": ["BRAF", "Langerhans"], "expect_in_results_any": ["Langerhans", "histiocytosis"]}
+{"id": 58, "question": "Do BRAF mutations occur in brain tumors?", "expect_in_query": ["BRAF", "brain"], "expect_in_results_any": ["glioma", "astrocytoma", "brain"]}
+{"id": 59, "question": "Is BRAF altered in multiple myeloma?", "expect_in_query": ["BRAF", "myeloma"], "expect_in_results_any": ["myeloma", "plasma"]}
+{"id": 60, "question": "Are BRAF and KRAS mutations mutually exclusive in colorectal cancer?", "expect_in_query": ["BRAF", "KRAS", "colorectal"], "expect_in_results_any": ["colorectal", "mutually", "exclusive"]}
+
+{"id": 61, "question": "Is PIK3CA related to breast cancer?", "expect_in_query": ["PIK3CA", "breast"], "expect_in_results_any": ["breast", "cancer"]}
+{"id": 62, "question": "Are PIK3CA mutations associated with endometrial cancer?", "expect_in_query": ["PIK3CA", "endometrial"], "expect_in_results_any": ["endometrial", "uterine"]}
+{"id": 63, "question": "Does PIK3CA play a role in colorectal cancer?", "expect_in_query": ["PIK3CA", "colorectal"], "expect_in_results_any": ["colorectal", "colon"]}
+{"id": 64, "question": "Are PIK3CA mutations involved in head and neck cancer?", "expect_in_query": ["PIK3CA", "head", "neck"], "expect_in_results_any": ["head", "neck", "squamous"]}
+{"id": 65, "question": "Is PIK3CA mutated in ovarian cancer?", "expect_in_query": ["PIK3CA", "ovarian"], "expect_in_results_any": ["ovarian", "carcinoma"]}
+{"id": 66, "question": "Are PIK3CA mutations associated with gastric cancer?", "expect_in_query": ["PIK3CA", "gastric"], "expect_in_results_any": ["gastric", "stomach"]}
+{"id": 67, "question": "Does PIK3CA contribute to non-small cell lung cancer?", "expect_in_query": ["PIK3CA", "lung"], "expect_in_results_any": ["lung", "NSCLC"]}
+{"id": 68, "question": "Is PIK3CA involved in glioblastoma?", "expect_in_query": ["PIK3CA", "glioblastoma"], "expect_in_results_any": ["glioblastoma", "brain"]}
+{"id": 69, "question": "Are PIK3CA mutations linked to bladder cancer?", "expect_in_query": ["PIK3CA", "bladder"], "expect_in_results_any": ["bladder", "urothelial"]}
+{"id": 70, "question": "Do PIK3CA and PTEN alterations co-occur in endometrial cancer?", "expect_in_query": ["PIK3CA", "PTEN", "endometrial"], "expect_in_results_any": ["endometrial", "uterine"]}
+
+{"id": 71, "question": "What diseases are associated with PTEN mutations?", "expect_in_query": ["PTEN"], "expect_in_results_any": ["Cowden", "hamartoma", "tumor"]}
+{"id": 72, "question": "Is PTEN related to Cowden syndrome?", "expect_in_query": ["PTEN", "Cowden"], "expect_in_results_any": ["Cowden", "syndrome"]}
+{"id": 73, "question": "Are PTEN mutations associated with breast cancer?", "expect_in_query": ["PTEN", "breast"], "expect_in_results_any": ["breast", "cancer"]}
+{"id": 74, "question": "Does PTEN play a role in endometrial cancer?", "expect_in_query": ["PTEN", "endometrial"], "expect_in_results_any": ["endometrial", "uterine"]}
+{"id": 75, "question": "Is PTEN involved in glioblastoma?", "expect_in_query": ["PTEN", "glioblastoma"], "expect_in_results_any": ["glioblastoma", "brain"]}
+{"id": 76, "question": "Are PTEN mutations linked to prostate cancer?", "expect_in_query": ["PTEN", "prostate"], "expect_in_results_any": ["prostate", "cancer"]}
+{"id": 77, "question": "Is PTEN associated with thyroid cancer?", "expect_in_query": ["PTEN", "thyroid"], "expect_in_results_any": ["thyroid", "carcinoma"]}
+{"id": 78, "question": "Are PTEN mutations involved in colorectal cancer?", "expect_in_query": ["PTEN", "colorectal"], "expect_in_results_any": ["colorectal", "colon"]}
+{"id": 79, "question": "Does PTEN loss contribute to melanoma?", "expect_in_query": ["PTEN", "melanoma"], "expect_in_results_any": ["melanoma", "skin"]}
+{"id": 80, "question": "Do PTEN and PIK3CA alterations co-occur in breast cancer?", "expect_in_query": ["PTEN", "PIK3CA", "breast"], "expect_in_results_any": ["breast", "cancer"]}
+
+{"id": 81, "question": "Is ERBB2 (HER2) related to breast cancer?", "expect_in_query": ["ERBB2", "HER2", "breast"], "expect_in_results_any": ["HER2", "breast", "overexpression"]}
+{"id": 82, "question": "Are ERBB2 amplifications associated with gastric cancer?", "expect_in_query": ["ERBB2", "gastric"], "expect_in_results_any": ["gastric", "stomach"]}
+{"id": 83, "question": "Does ERBB2 play a role in esophageal cancer?", "expect_in_query": ["ERBB2", "esophageal"], "expect_in_results_any": ["esophageal", "cancer"]}
+{"id": 84, "question": "Is ERBB2 involved in ovarian cancer?", "expect_in_query": ["ERBB2", "ovarian"], "expect_in_results_any": ["ovarian", "carcinoma"]}
+{"id": 85, "question": "Are ERBB2 alterations linked to lung adenocarcinoma?", "expect_in_query": ["ERBB2", "lung"], "expect_in_results_any": ["lung", "adenocarcinoma"]}
+{"id": 86, "question": "Is ERBB2 amplified in colorectal cancer?", "expect_in_query": ["ERBB2", "colorectal"], "expect_in_results_any": ["colorectal", "colon"]}
+{"id": 87, "question": "Does ERBB2 contribute to bladder cancer?", "expect_in_query": ["ERBB2", "bladder"], "expect_in_results_any": ["bladder", "urothelial"]}
+{"id": 88, "question": "Is ERBB2 overexpression associated with endometrial cancer?", "expect_in_query": ["ERBB2", "endometrial"], "expect_in_results_any": ["endometrial", "uterine"]}
+{"id": 89, "question": "Are ERBB2 and BRCA1 both altered in breast cancer?", "expect_in_query": ["ERBB2", "BRCA1", "breast"], "expect_in_results_any": ["HER2", "BRCA1", "breast"]}
+{"id": 90, "question": "Do ERBB2 and PIK3CA mutations co-occur in breast cancer?", "expect_in_query": ["ERBB2", "PIK3CA", "breast"], "expect_in_results_any": ["breast", "cancer"]}
+
+{"id": 91, "question": "Is ALK rearrangement associated with lung cancer?", "expect_in_query": ["ALK", "lung"], "expect_in_results_any": ["ALK", "NSCLC", "adenocarcinoma"]}
+{"id": 92, "question": "Are ALK fusions involved in anaplastic large cell lymphoma?", "expect_in_query": ["ALK", "lymphoma"], "expect_in_results_any": ["anaplastic", "large", "cell", "lymphoma"]}
+{"id": 93, "question": "Does ALK play a role in inflammatory myofibroblastic tumor?", "expect_in_query": ["ALK", "inflammatory"], "expect_in_results_any": ["inflammatory", "myofibroblastic"]}
+{"id": 94, "question": "Is ALK rearranged in neuroblastoma?", "expect_in_query": ["ALK", "neuroblastoma"], "expect_in_results_any": ["neuroblastoma", "pediatric"]}
+{"id": 95, "question": "Are ALK alterations seen in sarcomas?", "expect_in_query": ["ALK", "sarcoma"], "expect_in_results_any": ["sarcoma", "tumor"]}
+{"id": 96, "question": "Is ALK involved in colorectal cancer?", "expect_in_query": ["ALK", "colorectal"], "expect_in_results_any": ["colorectal", "colon"]}
+{"id": 97, "question": "Does ALK rearrangement occur in breast cancer?", "expect_in_query": ["ALK", "breast"], "expect_in_results_any": ["breast", "cancer"]}
+{"id": 98, "question": "Are ALK and EGFR alterations mutually exclusive in lung cancer?", "expect_in_query": ["ALK", "EGFR", "lung"], "expect_in_results_any": ["lung", "mutually", "exclusive"]}
+{"id": 99, "question": "Is ALK overexpression related to gastric cancer?", "expect_in_query": ["ALK", "gastric"], "expect_in_results_any": ["gastric", "stomach"]}
+{"id": 100, "question": "Do ALK and KRAS mutations co-occur in lung cancer?", "expect_in_query": ["ALK", "KRAS", "lung"], "expect_in_results_any": ["lung", "cancer"]}

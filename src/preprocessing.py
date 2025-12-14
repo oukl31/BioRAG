@@ -1,4 +1,3 @@
-# ner_and_norm.py
 import csv
 import re
 from pathlib import Path
@@ -6,12 +5,12 @@ from pathlib import Path
 import nltk
 from nltk.tokenize import sent_tokenize
 import spacy
-import scispacy  # noqa: F401
-import en_ner_bc5cdr_md  # noqa: F401
+import scispacy
+import en_ner_bc5cdr_md
 
 nltk.download("punkt")
 
-DATA_DIR = Path("./data")
+DATA_DIR = Path("../data")
 HGNC_FILE = DATA_DIR / "hgnc_complete_set.txt"
 
 GENE_DICT = {}
@@ -47,9 +46,7 @@ def load_hgnc():
                 for al in row["prev_symbol"].split("|"):
                     _add_key(al)
 
-
 load_hgnc()
-
 
 def find_gene_mentions_with_dict(text: str):
     if not isinstance(text, str):
